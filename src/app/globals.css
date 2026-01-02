@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-100 text-slate-900 antialiased;
+}
+
+.devicon-nextjs-original {
+  color: #111827;
+}
+.devicon-express-original {
+  color: #111827;
+}
+.devicon-github-original {
+  color: #111827;
+}
