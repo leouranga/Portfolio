@@ -74,7 +74,7 @@ export const projects: Project[] = [
     name: "Portfolio",
     description: "My personal Portfolio with my projects.",
     href: "http://localhost:3000/",
-    repo: "https://github.com/your-handle/snippet-vault",
+    repo: "https://github.com/leouranga/Portfolio",
     image: { src: "/portfoliopic.png", alt: "portfolio screenshot" },
     tech: ["nextjs", "react", "typescript", "tailwind"],
     category: "frontend",
@@ -86,7 +86,7 @@ export const projects: Project[] = [
     repo: "https://github.com/leouranga/Discuss",
     image: { src: "/Discuss.png", alt: "Discuss screenshot" },
     tech: ["react", "typescript", "tailwind", "postgresql", "prisma", "nextjs"],
-    category: "frontend",
+    category: "fullstack",
   },
   {
     name: "Expense Tracker",
