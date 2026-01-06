@@ -15,8 +15,16 @@ export const socials: SocialLink[] = [
 ];
 
 export const skills: Tech[] = [
-  { key: "javascript", label: "JavaScript", iconClass: "devicon-javascript-plain colored" },
-  { key: "typescript", label: "TypeScript", iconClass: "devicon-typescript-plain colored" },
+  {
+    key: "javascript",
+    label: "JavaScript",
+    iconClass: "devicon-javascript-plain colored",
+  },
+  {
+    key: "typescript",
+    label: "TypeScript",
+    iconClass: "devicon-typescript-plain colored",
+  },
   { key: "html", label: "HTML", iconClass: "devicon-html5-plain colored" },
   { key: "css", label: "CSS", iconClass: "devicon-css3-plain colored" },
   { key: "react", label: "React", iconClass: "devicon-react-original colored" },
@@ -32,7 +40,11 @@ export const skills: Tech[] = [
   { key: "csharp", label: "C#", iconClass: "devicon-csharp-plain colored" },
   { key: "sqlite", label: "SQLite", iconClass: "devicon-sqlite-plain colored" },
   { key: "jquery", label: "jQuery", iconClass: "devicon-jquery-plain colored" },
-  { key: "postgresql", label: "PostgreSQL", iconClass: "devicon-postgresql-plain colored" },
+  {
+    key: "postgresql",
+    label: "PostgreSQL",
+    iconClass: "devicon-postgresql-plain colored",
+  },
   { key: "docker", label: "Docker", iconClass: "devicon-docker-plain colored" },
   { key: "vercel", label: "Vercel", iconClass: "devicon-vercel-original" },
   { key: "aspnet", label: "ASP.NET", iconClass: "devicon-dot-net-plain colored" },
@@ -70,7 +82,7 @@ export const projects: Project[] = [
     tech: ["javascript", "nodejs", "express", "mongodb", "bootstrap"],
     category: "fullstack",
   },
-{
+  {
     name: "Portfolio",
     description: "My personal Portfolio with my projects.",
     href: "http://localhost:3000/",
@@ -92,7 +104,7 @@ export const projects: Project[] = [
     name: "Expense Tracker",
     description: "Track expenses with filters, categories, and insights.",
     href: "https://your-expense-tracker-url.com",
-    repo: "https://github.com/your-handle/expense-tracker",
+    repo: "https://github.com/leouranga/Crypto-Live",
     image: { src: "/Jobify.png", alt: "Expense Tracker screenshot" },
     tech: ["react", "typescript", "tailwind", "sqlite"],
     category: "games",
