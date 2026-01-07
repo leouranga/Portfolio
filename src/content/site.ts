@@ -47,10 +47,11 @@ export const skills: Tech[] = [
   },
   { key: "docker", label: "Docker", iconClass: "devicon-docker-plain colored" },
   { key: "vercel", label: "Vercel", iconClass: "devicon-vercel-original" },
-  { key: "aspnet", label: "ASP.NET", iconClass: "devicon-dot-net-plain colored" },
+  { key: "aspnet", label: "ASP.NET Core", iconClass: "devicon-dot-net-plain colored" },
   { key: "nextjs", label: "Next.js", iconClass: "devicon-nextjs-plain" },
   { key: "prisma", label: "Prisma", iconClass: "devicon-prisma-original colored" },
   { key: "mongodb", label: "MongoDB", iconClass: "devicon-mongodb-plain colored" },
+  { key: "azure", label: "Azure", iconClass: "devicon-azure-plain colored" },
 ];
 
 export const about = {
