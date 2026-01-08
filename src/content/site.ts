@@ -61,7 +61,7 @@ export const about = {
     "I focus on building clear, maintainable applications and solving problems in a way that makes sense long-term.",
     "I test, refactor, and debug continuously, treating issues as part of the process instead of exceptions.",
   ],
-  image: { src: "/profile.jpg", alt: "Profile photo" },
+  image: { src: "/pic.png", alt: "photo" },
 };
 
 export const projects: Project[] = [
