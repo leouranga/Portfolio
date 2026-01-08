@@ -7,7 +7,7 @@ import { Header } from "@/components/layout/Header";
 
 export const metadata: Metadata = {
   title: "Portfolio",
-  description: "Portfolio built with Next.js, TypeScript, React, and Tailwind.",
+  description: "Portfolio",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
