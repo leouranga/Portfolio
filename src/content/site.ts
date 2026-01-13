@@ -115,7 +115,7 @@ export const projects: Project[] = [
     description: "Magic: The Gathering card search, powered by the Scryfall API.",
     href: "https://magic-rhxl.vercel.app/",
     repo: "https://github.com/leouranga/Magic",
-    image: { src: "/MTG.png", alt: "MTG screenshot" },
+    image: { src: "/MTG.png", alt: "Magic screenshot" },
     tech: ["react", "typescript", "tailwind", "nextjs"],
     category: "frontend",
   },
