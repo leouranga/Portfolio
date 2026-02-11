@@ -102,7 +102,7 @@ export const projects: Project[] = [
     category: "fullstack",
   },
   {
-    name: "Crypto Live ",
+    name: "Crypto Live",
     description: "Real-time crypto tracker dashboard.",
     href: "https://crypto-live-tan.vercel.app/",
     repo: "https://github.com/leouranga/Crypto-Live",
