@@ -119,4 +119,13 @@ export const projects: Project[] = [
     tech: ["react", "typescript", "tailwind", "nextjs"],
     category: "frontend",
   },
+  {
+    name: "Space Mage",
+    description: "Wave survival browser game.",
+    href: "https://web-game-six-delta.vercel.app/",
+    repo: "https://github.com/leouranga/WebGame",
+    image: { src: "/Spacemage.png", alt: "Space Mage screenshot" },
+    tech: ["react", "typescript", "tailwind", "nextjs"],
+    category: "games",
+  },
 ];
