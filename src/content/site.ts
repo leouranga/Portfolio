@@ -125,7 +125,7 @@ export const projects: Project[] = [
     href: "https://web-game-six-delta.vercel.app/",
     repo: "https://github.com/leouranga/WebGame",
     image: { src: "/Spacemage.png", alt: "Space Mage screenshot" },
-    tech: ["react", "typescript", "tailwind", "nextjs"],
+    tech: ["react", "typescript", "tailwind", "nextjs", "postgresql", "prisma"],
     category: "games",
   },
 ];
