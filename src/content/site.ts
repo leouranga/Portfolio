@@ -69,7 +69,7 @@ export const projects: Project[] = [
     name: "Copao Supremo",
     description:
       "Restaurant app with a fully customizable admin dashboard and a wide range of implementations.",
-    href: "https://jobify-6dw2.onrender.com/",
+    href: "https://www.copaosupremo.com/",
     repo: "https://github.com/leouranga/Copao",
     image: { src: "/copao.png", alt: "copao screenshot" },
     tech: [
