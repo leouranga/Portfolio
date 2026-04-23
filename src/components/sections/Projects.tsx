@@ -81,15 +81,15 @@ export function Projects() {
 
       <div className="grid gap-8 md:grid-cols-2">
         {filteredProjects.map((p) => (
-          <article key={p.name} className="relative">
+          <article key={p.name} className="relative flex h-full">
             <a
               href={p.href}
               target="_blank"
               rel="noreferrer"
               aria-label={`Open ${p.name} website`}
-              className="group block overflow-hidden rounded-[22px] bg-white shadow-xl ring-1 ring-slate-200/60 transition hover:-translate-y-1 hover:shadow-2xl focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-400"
+              className="group flex h-full w-full flex-col overflow-hidden rounded-[22px] bg-white shadow-xl ring-1 ring-slate-200/60 transition hover:-translate-y-1 hover:shadow-2xl focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-400"
             >
-              <div className="relative h-56 w-full bg-slate-200">
+              <div className="relative h-56 w-full shrink-0 bg-slate-200">
                 <div className="pointer-events-none absolute inset-0 bg-gradient-to-tr from-sky-50/20 via-white/0 to-indigo-50/20" />
                 <Image
                   src={p.image.src}
@@ -99,11 +99,11 @@ export function Projects() {
                 />
               </div>
 
-              <div className="p-6">
+              <div className="flex flex-1 flex-col p-6">
                 <h3 className="text-xl font-semibold tracking-tight">{p.name}</h3>
                 <p className="mt-2 text-slate-600">{p.description}</p>
 
-                <div className="mt-5 flex items-center justify-between gap-4 pr-14">
+                <div className="mt-auto flex items-center justify-between gap-4 pt-5 pr-14">
                   <TechIcons techKeys={p.tech} />
                 </div>
               </div>
