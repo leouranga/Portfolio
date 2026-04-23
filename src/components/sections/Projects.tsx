@@ -24,7 +24,7 @@ function GitHubIcon(props: React.SVGProps<SVGSVGElement>) {
 function TechIcons({ techKeys }: { techKeys: string[] }) {
   const map = new Map(skills.map((s) => [s.key, s]));
   return (
-    <div className="flex items-center gap-3">
+    <div className="flex flex-wrap items-center gap-3">
       {techKeys
         .map((k) => map.get(k))
         .filter(Boolean)
@@ -81,7 +81,7 @@ export function Projects() {
 
       <div className="grid gap-8 md:grid-cols-2">
         {filteredProjects.map((p) => (
-          <article key={p.name} className="relative flex h-full">
+          <article key={p.name} className="relative flex h-full min-w-0">
             <a
               href={p.href}
               target="_blank"

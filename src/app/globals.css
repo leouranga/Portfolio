@@ -4,10 +4,13 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   @apply bg-slate-100 text-slate-900 antialiased;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 .devicon-nextjs-original {
